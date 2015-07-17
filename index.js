@@ -24,6 +24,7 @@ module.exports = function (h, opts) {
         if (isfn(props[ukey])) {
             H.prototype.unhook = function (node) { props[ukey](node) };
         }
+        if (H) props[attr] = new H
         return h(tagName, props, children);
     };
 };

@@ -22,7 +22,6 @@ function render (state) {
     inputs.push(h('div', h('input', {
       style: { backgroundColor: active ? 'lime' : 'lightgray' },
       hook: function (elem) {
-console.log('HOOK!') 
         if (active) elem.focus()
       },
       onfocus: function () { update({ focus: n }) }
