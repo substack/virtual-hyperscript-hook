@@ -1,0 +1,34 @@
+{
+  "name": "virtual-hyperscript-hook",
+  "version": "1.0.0",
+  "description": "element lifecycle hooks for virtual-dom",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "virtual-dom": "^2.0.1",
+    "x-is-array": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/substack/virtual-hyperscript-hook.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "vdom",
+    "hook",
+    "unhook",
+    "lifecycle"
+  ],
+  "author": "substack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/virtual-hyperscript-hook/issues"
+  },
+  "homepage": "https://github.com/substack/virtual-hyperscript-hook#readme"
+}
